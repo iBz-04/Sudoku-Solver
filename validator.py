@@ -1,7 +1,7 @@
-3Valid Sudoku Checker
+#Valid Sudoku Checker
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # make sure rows are valide
+        # make sure rows are valid
         for i in range(9):
             s = set()
             for j in range(9):
